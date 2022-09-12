@@ -1,0 +1,41 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <div class="container p-3 mb-2 bg-secondary">
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Texto para criptografar</label>
+        </div>
+
+        <br />
+
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Texto criptografado</label>
+        </div>
+    </div>
+    <button type="button" class="btn btn-secondary">Criptografar</button>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="container p-3 mb-2 bg-secondary">
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Texto para descriptografar</label>
+        </div>
+
+        <br />
+
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Texto descriptografado</label>
+        </div>
+    </div>
+    <button type="button" class="btn btn-secondary">Descriptografar</button>
+</div>
